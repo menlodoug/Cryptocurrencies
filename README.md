@@ -2,7 +2,7 @@
 
 Completed all instructions for the Module 18 challenge.
 
-1.  Loaded the preprocessed cryptocurrencies dataset (crypto_data.csv) and indexed to the first column, which is the ticker.
+1. Loaded the preprocessed cryptocurrencies dataset (crypto_data.csv) and indexed to the first column, which is the ticker.
 2. Loaded the data in a Pandas DataFrame named “crypto_df”.
 3. Removed all cryptocurrencies that aren’t trading.
 4. Checked for cryptocurrencies that don’t have an algorithm defined.  All did. No removals/
@@ -17,9 +17,17 @@ Completed all instructions for the Module 18 challenge.
 13. Created a DataFrame named “pcs_df” that includes the following columns: PC 1, PC 2, and PC 3. Used the crypto_df.index as the index for this new DataFrame.
 14. Used the KMeans algorithm from sklearn to cluster the cryptocurrencies using the PCA data.
     1. Created an elbow curve to find the best value for *K* (which was 4), and used the pcs_df DataFrame.
+    <img src="elbow.png" width="500" >
+    
     2. Ran the K-means algorithm to predict the *K* clusters for the cryptocurrencies’ data. Used the pcs_df to run the K-means algorithm.
     3. Created a new DataFrame named “clustered_df,” that includes the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class. I maintained the index of the crypto_df DataFrame.
 15. Visualized results.
     1. Created a 3D scatter plot using Plotly Express to plot the clusters using the clustered_df DataFrame. Included the following parameters on the plot: `hover_name="CoinName" and hover_data=["Algorithm"] `to show this additional info on each data point.
+    <img src="3d.png" width="500" >
+    
     2. Used `hvplot.table` to create a data table with all the current tradable cryptocurrencies. The table has the following columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
     3. Created a scatter plot using `hvplot.scatter` to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Used the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.  Also, produced several more scatter plots, the first using log values on the x-axis, the second using log values on the y-axis, and a third with log values on both axes.  For the Y-axis logs, I set the minimum value  at 40, so there would be no errors from a log of zero.
+    <img src="scatter1.png" width="500" >
+    <img src="scatter_logx.png" width="500" >
+    <img src="scatter_logy.png" width="500" >
+    <img src="scatter_loglog.png" width="500" >
