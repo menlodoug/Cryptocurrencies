@@ -34,6 +34,3 @@ Completed all instructions for the Module 18 challenge.  ***Sunday night uploade
     <img src="scatter_loglog.png" width="500" >
 ***16.  Here are the 2 scatter plots from the "Challenge - Scaled" notebook.  1 billion - 1 unit.  The second plot removes 2 outliers, TurtleCoin and BitTorrent***
 
-    <img src="scatter_scaled.png" width="500" >
-    <img src="scatter_scaled_minus_outliers.png" width="500" >
-
