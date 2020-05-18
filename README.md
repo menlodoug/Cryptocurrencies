@@ -1,15 +1,16 @@
 # Cryptocurrencies
 
-Completed all instructions for the Module 18 challenge.
+Completed all instructions for the Module 18 challenge.  ***Sunday night uploaded a second, scaled version of Challenge ("Challenge - Scaled.ipynb"), along with 2 versions of the scaled scatter plot - the first has all actively traded cryptocurrences.  The second excludes 2 outliers, TurtleCoin and BitTorrent that appear to be outliers.***
 
 1. Loaded the preprocessed cryptocurrencies dataset (crypto_data.csv) and indexed to the first column, which is the ticker.
 2. Loaded the data in a Pandas DataFrame named “crypto_df”.
 3. Removed all cryptocurrencies that aren’t trading.
-4. Checked for cryptocurrencies that don’t have an algorithm defined.  All did. No removals/
+4. Checked for cryptocurrencies that don’t have an algorithm defined.  All did. No removals.
 5. Removed the "IsTrading" column.
 6. Removed all cryptocurrencies with at least one null value.
 7. Removed all cryptocurrencies without coins mined and one that had a negative # (Fiii) .
 8. Stored the names of all cryptocurrencies in a DataFramed named coins_name, and used the crypto_df.index as the index for this new DataFrame.
+***8(b)  Scaled cryptocurrency units in "Challenge - Scaled.ipynb" by dividing by 1 billions***
 9. Removed the CoinName column from the crypto_df DataFrame.
 10. Created dummies variables for all of the text features, and store the resulting data in a DataFrame named X.
 11. Used the StandardScaler from sklearn to standardize all of the data from the X DataFrame. 
@@ -31,3 +32,6 @@ Completed all instructions for the Module 18 challenge.
     <img src="scatter_logx.png" width="500" >
     <img src="scatter_logy.png" width="500" >
     <img src="scatter_loglog.png" width="500" >
+***16.  Here are the 2 scatter plots from the "Challenge - Scaled" notebook.  1 billion - 1 unit.  The second plot removes 2 outliers, TurtleCoin and BitTorrent***
+    <img src="scatter_scaled.png" width="500" >
+    <img src="scatter_scaled_minus_outliers.png" width="500" >
