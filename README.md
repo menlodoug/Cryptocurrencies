@@ -1,6 +1,6 @@
 # Cryptocurrencies
 
-Completed all instructions for the Module 18 challenge.  ***Sunday night uploaded a second, scaled version of Challenge ("Challenge - Scaled.ipynb"), along with 2 versions of the scaled scatter plot - the first has all actively traded cryptocurrences.  The second excludes 2 outliers, TurtleCoin and BitTorrent that appear to be outliers.***
+Completed all instructions for the Module 18 challenge.  ***Sunday night uploaded a second, scaled version of Challenge ("Challenge - Scaled.ipynb"), along with 2 versions of the scaled scatter plot - the first has all actively traded cryptocurrences.  The second excludes 2 outliers, TurtleCoin and BitTorrent.***
 
 1. Loaded the preprocessed cryptocurrencies dataset (crypto_data.csv) and indexed to the first column, which is the ticker.
 2. Loaded the data in a Pandas DataFrame named “crypto_df”.
