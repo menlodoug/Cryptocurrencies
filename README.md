@@ -33,7 +33,7 @@ Completed all instructions for the Module 18 challenge.  ***Sunday night uploade
     <img src="scatter_logy.png" width="500" >
     <img src="scatter_loglog.png" width="500" >
 
-16. Here are the scatter plot images from the scaled notebook.  The first includes all traded cryptocurrencies.  The second removes 2 outliers, BitTorrent and TurtleCoin.
+16. Here are the scatter plot images from the scaled notebook (scaled 1 billion:1).  The first includes all traded cryptocurrencies.  The second removes 2 outliers, BitTorrent and TurtleCoin.
 
     <img src="scatter_scaled.png" width="500" >
     <img src="scatter_scaled_minus_outliers.png" width="500" >   
